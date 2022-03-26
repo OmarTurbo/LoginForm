@@ -1,0 +1,13 @@
+body{
+    background-color: #24353F;
+}
+
+.container .group{
+    background-color: #24353F;
+    box-shadow: -2px -2px 50px 3px  rgb(17, 17, 17) !important;
+}
+
+.container .group .inputs > *{
+    background-color: transparent;
+    color: white;
+}

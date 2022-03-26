@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index_style.css">
+    <title>LoginPage</title>
+</head>
+
+<body>
+
+    <div class="container my-5 text-center rounded">
+    
+        <div class="m-auto w-75 p-5  group">
+
+            <h2 class="text-primary">Smart Login System</h2>
+
+            <div class="inputs">
+                <input type="text" placeholder="Enter your Email" class="form-control w-100 my-3" id="userEmail">
+                <input type="text" placeholder="Enter your Password" class="form-control w-100 my-3 " id="userPass">    
+            </div>
+
+            <div id="wrong" class="text-white fs-4"></div>
+
+            <a id="loginBtn" target="_blank" ><button class="login-btn btn btn-outline-primary w-100 my-1" onclick="signIn()" >Login</button> </a>
+
+            <p class="text-white my-1">Don’t have an account? <a href="NewAcount.html" class="text-decoration-none ">Sign Up</a></p>
+
+        </div>
+
+
+    
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+
+</html>
